@@ -43,7 +43,7 @@
     </section>
 
     <section id="experience">
-      <h2>Опыт преподавания</h2>
+      <h2>Дополнительный опыт преподавания</h2>
       {{ experience }}
     </section>
 
@@ -52,16 +52,20 @@
       <div class="price-card">
         <div class="price">{{ price_rub }} ₽ <span class="per">/ час</span></div>
         <div class="price-secondary">≈ {{ price_usd }} $ / hour</div>
-        <p>Занятие длится 60 минут. Оплата — после занятия или по договорённости.</p>
+        <p>Занятие длится 60 или 120 минут</p>
       </div>
     </section>
 
     <section id="contact">
       <h2>Связаться</h2>
-      <p>Напишите мне на почту — обсудим цели, уровень и удобное время:</p>
+      <p>Напишите мне на почту или в Telegram, обсудим цели, уровень и удобное время:</p>
       <p class="email"><a href="mailto:{{ email }}">{{ email }}</a></p>
-    </section>
-
+      <p class="telegram">
+        <a href="https://t.me/{{ telegram_username }}" target="_blank" rel="noopener">
+          Telegram: {{ telegram }}
+        </a>
+      </p>
+    </section>     
   </main>
 
   <footer>
