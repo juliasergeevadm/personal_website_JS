@@ -1,6 +1,7 @@
 {
   "name": "Юлия Сергеева",
   "tagline": "Репетитор по математике на английском, подготовка к A-Level",
+  "photo": "static/images/profile_photo.jpg",
   "price_rub": 4000,
   "price_usd": 50,
   "email": "juliasergeevadm@gmail.com",
