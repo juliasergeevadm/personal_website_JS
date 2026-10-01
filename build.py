@@ -61,6 +61,7 @@ def build():
     context = {
         "name":       config["name"],
         "tagline":    config["tagline"],
+        "photo":      config.get("photo", ""),
         "price_rub":  config["price_rub"],
         "price_usd":  config["price_usd"],
         "email":      config["email"],
