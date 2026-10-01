@@ -64,7 +64,9 @@ def build():
         "price_rub":  config["price_rub"],
         "price_usd":  config["price_usd"],
         "email":      config["email"],
-        "year":       "2025",
+        "year":       "2026",
+        "telegram":          config["telegram"],
+        "telegram_username": config["telegram"].lstrip("@"),
         **sections,
     }
 
