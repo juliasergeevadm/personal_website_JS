@@ -3,9 +3,8 @@
   --pistachio:        #A1D99B;   /* фисташковый — фон hero */
   --beige:            #F5F0E4;   /* основной бежевый фон */
   --beige-warm:       #EDE6D4;   /* тёплый бежевый — карточки */
-  --brown:            #844421;   /* тёмно-коричневый — текст, разделители, акценты */
+  --brown:            #844421;   /* тёмно-коричневый — заголовки, ссылки, разделители, акценты */
   --brown-deep:       #553c2b;   /* очень тёмный коричневый — вместо чёрного */
-  --green:            #006400;   /* тёмно-зелёный — заголовки и ссылки */
 
   /* Семантические переменные */
   --bg:               var(--beige);
@@ -13,8 +12,7 @@
   --card:             #FDFBF5;
   --text:             var(--brown);
   --muted:            var(--brown-deep);
-  --accent:           var(--green);
-  --accent-soft:      var(--pistachio);
+  --accent:           var(--brown);
   --border:           var(--brown);
 
   --max-width: 780px;
@@ -55,7 +53,7 @@ body {
   object-fit: cover;
   display: block;
   margin: 0 auto 24px;
-  border: 3px solid var(--green);
+  border: 3px solid var(--brown);
   box-shadow: 0 4px 20px rgba(85, 60, 43, 0.18);
 }
 
@@ -65,7 +63,7 @@ body {
   font-size: 3.4rem;
   margin: 0 0 8px;
   letter-spacing: 0.01em;
-  color: var(--green);
+  color: var(--brown);
 }
 
 .tagline {
@@ -97,7 +95,7 @@ body {
 }
 
 .nav a:hover {
-  color: var(--green);
+  color: var(--brown);
   border-bottom-color: var(--brown);
 }
 
@@ -115,7 +113,7 @@ h2 {
   font-size: 2.6rem;
   margin: 0 0 16px;
   letter-spacing: 0.01em;
-  color: var(--green);
+  color: var(--brown);
   position: relative;
   padding-bottom: 8px;
 }
@@ -135,7 +133,7 @@ ul { padding-left: 22px; }
 li { margin-bottom: 10px; }
 
 a {
-  color: var(--green);
+  color: var(--brown);
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: border-color 0.15s ease;
@@ -163,7 +161,7 @@ a:hover {
   font-weight: 700;
   font-size: 3rem;
   letter-spacing: 0.01em;
-  color: var(--green);
+  color: var(--brown);
   line-height: 1;
 }
 
