@@ -5,14 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ name }} — репетитор по математике на английском</title>
   <meta name="description" content="{{ tagline }}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
 
-    <header class="hero">
-      <div class="container">
-        <img src="{{ photo }}" alt="{{ name }}" class="avatar">
-        <h1>{{ name }}</h1>
+  <header class="hero">
+    <div class="container">
+      <img src="{{ photo }}" alt="{{ name }}" class="avatar">
+      <h1>{{ name }}</h1>
       <p class="tagline">{{ tagline }}</p>
       <div class="hero-text">{{ hero }}</div>
       <nav class="nav">
@@ -66,7 +71,8 @@
           Telegram: {{ telegram }}
         </a>
       </p>
-    </section>     
+    </section>
+
   </main>
 
   <footer>
