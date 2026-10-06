@@ -40,7 +40,7 @@ body {
 
 /* Hero */
 .hero {
-  padding: 48px 0 32px;
+  padding: 28px 0 28px;
   text-align: center;
   background: var(--pistachio);
   border-bottom: 2px solid var(--border);
