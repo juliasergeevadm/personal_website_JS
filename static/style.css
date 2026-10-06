@@ -41,9 +41,10 @@ body {
 /* Hero */
 .hero {
   padding: 80px 0 48px;
+  max-width: 640px;
   text-align: center;
   background: var(--pistachio);
-  border-bottom: 1px solid var(--border);
+  border-bottom: 2px solid var(--border);
 }
 
 .avatar {
